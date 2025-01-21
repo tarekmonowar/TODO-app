@@ -1,0 +1,82 @@
+/* newtodo.module.css */
+.container {
+    width: 50%;
+    background-color: rgb(221, 170, 102);
+    color: black;
+    padding:8px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.inputFeild {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.inputFeild label {
+    text-align: center;
+    flex-basis: 25%;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-left: 35px;
+}
+
+.inputFeild input,
+.inputFeild textarea {
+    flex-basis: 75%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.inputFeild input:focus,
+.inputFeild textarea:focus {
+    border-color: #f30bcc;
+    outline: none;
+}
+
+.inputFeild textarea {
+    resize: vertical;
+}
+
+.inputFeild button {
+    border: none;
+    background-color: #eb5122;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    width: auto;
+    transition: background-color 0.3s ease;
+}
+
+.inputFeild button:hover {
+    background-color: #BE2A68;
+}
+
+fieldset {
+    border: none; /* Removes default border from the fieldset */
+    padding: 0; /* Remove default padding from the fieldset */
+}
+
+fieldset legend {
+    text-align: center;
+}
+
